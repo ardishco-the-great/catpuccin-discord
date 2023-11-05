@@ -78,6 +78,8 @@
 - Q: **_"Can this get my account banned?"_**
 - A: Using third party clients and injecting custom css is against the ToS. While nobody has ever been banned for simply using discord client mods, We are not responsible for anything that might happen to your account by using third party clients. Use at your own discretion!
 
+- Q: **_"Why does this fork exist?"_**
+- A: Because I wanted to replace some emojis with different images and add my own font.
 ## 💝 Thanks to
 
 - [GlowingUmbreon](https://github.com/glowingumbreon)
