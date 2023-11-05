@@ -9,3 +9,77 @@
  * **/
 
 @import url("https://catppuccin.github.io/discord/dist/catppuccin-macchiato.theme.css");
+
+/* hold back tears = old hold back tears */
+[src^="/assets/571a9318fd6af1875977d03256f23214.svg"] {
+  content: url("https://vendicated.github.io/random-files/face_holding_back_tears.svg");
+}
+[style*="background-position: -200px 0px;"][style*='background-image: url("/assets/d218674f309bcbfbf56faf6074df6347.png");'] {
+  background-image: url("https://vendicated.github.io/random-files/face_holding_back_tears.svg") !important;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
+}
+
+/* pleading = old pleading */
+[src^="/assets/e63c47fd56c7ed1e4552974baaef4b4e.svg"] {
+  content: url("https://vendicated.github.io/random-files/pleading_face.svg");
+}
+[style*="background-position: -200px -40px;"][style*='background-image: url("/assets/d218674f309bcbfbf56faf6074df6347.png");'] {
+  background-image: url("https://vendicated.github.io/random-files/pleading_face.svg") !important;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
+}
+
+/* watergun = glock */
+[src^="/assets/fd0dd759c1ed1e0a044fa6882e95fd02.svg"] {
+  content: url("https://cdn.discordapp.com/emojis/808512495794520114.webp?size=1024&quality=lossless");
+}
+[style*="background-position: -280px -800px;"][style*='background-image: url("/assets/d218674f309bcbfbf56faf6074df6347.png");'] {
+  background-image: url("https://cdn.discordapp.com/emojis/808512495794520114.webp?size=1024&quality=lossless") !important;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
+}
+
+/* Here is the font change */
+@font-face {
+    font-family: "Iosevka Nerd Font";
+    src: url("https://raw.githubusercontent.com/ardishco-the-great/catpuccin-discord/main/IosevkaNerdFont-Regular.ttf");
+}
+@font-face {
+    font-family: "Iosevka Nerd Font Mono";
+    src: url("https://raw.githubusercontent.com/ardishco-the-great/catpuccin-discord/main/IosevkaNerdFontMono-Regular.ttf");
+}
+
+:root {
+    --font-primary: "Iosevka Nerd Font";
+    --font-headline: "Iosevka Nerd Font";
+    --font-code: "Iosevka Nerd Font Mono";
+    --font-display: "Iosevka Nerd Font";
+    /* above line changes the primary font only. You can also change the ones below (remove this line to activate the lines below)
+    --font-display: "Roboto";
+    --font-headline: "Roboto";
+    --font-code: "Roboto"; /* you should use a monospace font for this */
+}
+
+/*Remove Invite Button next to channel name*/
+.actionIcon-2sw4Sl {
+    display: none;
+}
+
+/*Resizable Channel/DM List But It Looks Bad Sometimes*/
+:root {
+--sidebar-initial-width: 240px;
+} 
+.sidebar-1tnWFu {
+resize: horizontal; 
+width: var(--sidebar-initial-width);
+}
+.sidebar-1tnWFu .channel-2QD9_O {
+max-width: unset;
+}
+.bannerImage-3KhIJ6 {
+width: 100%;
+}
